@@ -35,17 +35,19 @@ To determine axial displacement of a circular tapered bar using:
 
 ## Results
 
-| Elements (n) | FEM Displacement | Analytical Displacement | Error % |
-|--------------|------------------|--------------------------|---------|
-| 1 | (fill) | (same value) | (calc) |
-| 2 | (fill) | (same value) | (calc) |
-| 3 | (fill) | (same value) | (calc) |
+## Results Comparison
 
----
+| Elements (n) | FEM Displacement (m) | Analytical Displacement (m) | Error (%) |
+|--------------|----------------------|------------------------------|-----------|
+| 1 | 0.6053190331 | 0.6111549815 | 0.95% |
+| 2 | 0.5148432739 | 0.6111549815 | 15.76% |
+| 3 | 0.5590659144 | 0.6111549815 | 8.52% |
+| 5 | 0.5895585139 | 0.6111549815 | 3.53% |
+| 10 | 0.6053190331 | 0.6111549815 | 0.95% |
 
 ## Observation
-As number of elements increases, FEM solution approaches analytical solution.
 
+As the number of elements increases, the FEM solution approaches the analytical solution. The percentage error decreases significantly, showing convergence of the FEM method.
 ---
 
 ## Conclusion
